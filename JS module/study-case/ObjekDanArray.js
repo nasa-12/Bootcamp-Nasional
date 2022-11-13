@@ -12,13 +12,20 @@
  * dengan menggunakan Array methods.
  */
 // TODO 3: Ketikkan kode Anda di bawah ini!
+mahasiswa.push({
+    nama: 'dede',
+    stambuk: 2020,
+    instansi: 'universitas zxc'
+})
 
 /** 4 : Hapus index 1 pada Array mahasiswa dengan menggunakan Array methods */
 // TODO 4: Ketikkan kode Anda di bawah ini!
-
+mahasiswa.slice(1, 1);
 /** 5 : Tampilkan array mahasiswa dengan menggunkan for loop atau yang sejenisnya */
 // TODO 5: Ketikkan kode Anda di bawah ini!
-
+for (let index = 0; index < mahasiswa.length; index++) {
+    console.log(mahasiswa[index]);
+}
 /** 6 : Tampilkan nama pada Object didalam Array mahasiswa dengan menggunakan for loop atau yang sejenisnya*/
 // TODO 6: Ketikkan kode Anda di bawah ini!
 
