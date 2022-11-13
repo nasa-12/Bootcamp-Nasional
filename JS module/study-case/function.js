@@ -9,6 +9,7 @@ const mahasiswa = [
       { nama: 'Ethical Hacking', kuis: 75, uts: 70, uas: 75 },
     ],
   },
+ 
   {
     nama: 'Reyhan',
     stambuk: 20017002,
@@ -24,11 +25,12 @@ const mahasiswa = [
  * Buatlah sebuah function tanpa parameter yang berfungsi untuk
  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
  */
-// TODO 1: Ketikkan kode Anda di bawah ini!
-
+// TODO 1: Ketikkan kode Anda di bawah ini
+console.log(mahasiswa[0].mk[0])
 /** 2 :
  * Buatlah sebuah function dengan parameter nama yang berfungsi untuk
  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
  * berdasarkan nama mahasiswa
  */
 // TODO 2: Ketikkan kode Anda di bawah ini!
+
